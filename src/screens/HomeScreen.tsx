@@ -93,6 +93,10 @@ const styles = StyleSheet.create({
   },
 });
 
+function handleLearnMorePress() {
+  WebBrowser.openBrowserAsync('https://docs.expo.io/versions/latest/workflow/development-mode/');
+}
+
 function DevelopmentModeNotice() {
   if (__DEV__) {
     const learnMoreButton = (
@@ -111,10 +115,6 @@ function DevelopmentModeNotice() {
       <Text style={styles.developmentModeText}>You are not in development mode: your app will run at full speed.</Text>
     );
   }
-}
-
-function handleLearnMorePress() {
-  WebBrowser.openBrowserAsync('https://docs.expo.io/versions/latest/workflow/development-mode/');
 }
 
 function handleHelpPress() {
