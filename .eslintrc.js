@@ -25,6 +25,7 @@ module.exports = {
   plugins: ['react', '@typescript-eslint'],
   rules: {
     'react-native/no-inline-styles': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
   },
   settings: {
     react: {
