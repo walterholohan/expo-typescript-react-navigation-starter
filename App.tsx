@@ -1,4 +1,4 @@
-// import { Asset } from 'expo-asset';
+import { Asset } from 'expo-asset';
 import React, { useState, useEffect } from 'react';
 import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 
@@ -11,16 +11,17 @@ const styles = StyleSheet.create({
   },
 });
 
-// async function loadResourcesAsync() {
-//   await Promise.all([
-//     Asset.loadAsync([require('./assets/images/robot-dev.png'), require('./assets/images/robot-prod.png')]),
-//   ]);
-// }
+async function loadResourcesAsync() {
+  await Promise.all([
+    Asset.loadAsync([require('./assets/images/robot-dev.png'), require('./assets/images/robot-prod.png')]),
+  ]);
+}
 
 export default function App() {
   const [isLoadingComplete, setLoadingComplete] = useState(false);
 
   useEffect(() => {
+    loadResourcesAsync();
     // SplashScreen.hide();
     setLoadingComplete(true);
   }, []);
