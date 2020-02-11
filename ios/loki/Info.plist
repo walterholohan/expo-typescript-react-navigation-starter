@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>loki-beta</string>
+	<string>my-app-beta</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -57,26 +57,26 @@
 		</dict>
 	</dict>
 	<key>NSCalendarsUsageDescription</key>
-	<string>Allow loki-beta to access your calendar</string>
+	<string>Allow my-app-beta to access your calendar</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Allow loki-beta to use the camera</string>
+	<string>Allow my-app-beta to use the camera</string>
 	<key>NSContactsUsageDescription</key>
-	<string>Allow loki-beta experiences to access your contacts</string>
+	<string>Allow my-app-beta experiences to access your contacts</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Allow loki-beta to use your location</string>
+	<string>Allow my-app-beta to use your location</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Allow loki-beta to use your location</string>
+	<string>Allow my-app-beta to use your location</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Allow loki-beta to use your location</string>
+	<string>Allow my-app-beta to use your location</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Allow loki-beta to access your microphone</string>
+	<string>Allow my-app-beta to access your microphone</string>
 	<key>NSMotionUsageDescription</key>
-	<string>Allow loki-beta to access your device's accelerometer</string>
+	<string>Allow my-app-beta to access your device's accelerometer</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Give loki-beta periences permission to save photos</string>
+	<string>Give my-app-beta periences permission to save photos</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Give loki-beta periences permission to access your photos</string>
+	<string>Give my-app-beta periences permission to access your photos</string>
 	<key>NSRemindersUsageDescription</key>
-	<string>Allow loki-beta to access your reminders</string>
+	<string>Allow my-app-beta to access your reminders</string>
 </dict>
 </plist>
