@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import { Asset } from 'expo-asset';
 import React, { useState, useEffect } from 'react';
 import { Platform, StatusBar, StyleSheet, View } from 'react-native';
